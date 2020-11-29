@@ -4,7 +4,7 @@ integrantes:
 - Nicolai Potes
 
 
-#Descripcion proyecto:
+# Descripcion proyecto:
 En ocasiones las personas quieren aportar a la sociedad, de alguna manera buscan
 ayudar a los demás, el proyecto se centra en poder brindar un servicio de
 donaciones, y poder hacer su buen acto de manera eficaz, ya que hoy en día
@@ -21,3 +21,7 @@ saber más de la empresa podrá ingresar y encontrar la descripción larga la cu
 más detallada sobre la empresa en cuestión, también se proporciona las
 coordenadas de latitud y longitud con el objetivo de mostrar la ubicación exacta de la
 empresa en un mapa.
+
+
+# Descripcion tecnico:
+el software esta construido en django como backend y angular como frontend en donde se esta utilizando una arquitectura Modelo, vista, controlador 
