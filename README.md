@@ -1,7 +1,7 @@
 # final
 integrantes:
-1-
-2-
+- Johan Mauricio Rincon Raigoza
+- Nicolai Potes
 
 
 Descripcion proyecto:
