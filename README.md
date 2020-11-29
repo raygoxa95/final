@@ -4,7 +4,7 @@ integrantes:
 - Nicolai Potes
 
 
-Descripcion proyecto:
+#Descripcion proyecto:
 En ocasiones las personas quieren aportar a la sociedad, de alguna manera buscan
 ayudar a los demás, el proyecto se centra en poder brindar un servicio de
 donaciones, y poder hacer su buen acto de manera eficaz, ya que hoy en día
