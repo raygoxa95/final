@@ -24,4 +24,4 @@ empresa en un mapa.
 
 
 # Descripcion tecnico:
-el software esta construido en django como backend y angular como frontend en donde se esta utilizando una arquitectura Modelo, vista, controlador 
+el software esta construido en django como backend para hacer una comuniacion via api Rest con  angular como frontend en donde se esta utilizando una arquitectura Modelo, vista, controlador 
