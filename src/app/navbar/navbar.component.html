@@ -1,0 +1,25 @@
+<mat-toolbar color="primary" class="mat-elevation-z8">
+    <span>
+        <mat-icon>eco</mat-icon>
+        Donacion</span>
+    <div class="spacer"></div> <!--  para tener una divicion -->
+    
+    <a mat-button routerLink='Acerca' (click)='bo();'>Acerca</a>
+    <div *ngIf="isLogin===false">
+        <a mat-button routerLink='Autenticacion' class="formControl">Autenticacion</a>
+            
+        <a mat-raised-button color="accent" routerLink='Registro' class="formControl">Registrarse</a>
+    </div>
+
+    
+    <div *ngIf="isLogin===true">
+        
+        <a mat-button routerLink='Autenticacion' color="accent" class="formControl" (click)='salir();'>Salir</a>
+    </div>
+
+    
+    <!-- {{userData}}             -->
+    
+    
+    
+  </mat-toolbar>

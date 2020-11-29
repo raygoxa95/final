@@ -1,0 +1,94 @@
+<!-- <div class="displayTable">
+    <div class="displayTableCell">
+  
+      <div class="authBlock">
+        <h3>Sign Up</h3>
+  
+        <div class="formGroup">
+          <input type="email" class="formControl" placeholder="Email Address" #userEmail required>
+        </div>
+  
+        <div class="formGroup">
+          <input type="password" class="formControl" placeholder="Password" #userPwd required>
+        </div>
+  
+        <div class="formGroup">
+          <button mat-raised-button color="primary" value="Sign Up" (click)="authService.SignUp(userEmail.value, userPwd.value)">
+            <span class="material-icons">
+              keyboard_return
+              </span>
+            Ingresar
+          </button>
+        </div>
+        <div class="formGroup">
+          <span class="or"><span class="orInner">Or</span></span>
+        </div>
+        
+        <div class="formGroup">
+          <button mat-raised-button color="warn" (click)="authService.GoogleAuth()">
+            <span class="material-icons">
+              fingerprint
+              </span>
+            Con Google
+          </button>
+        </div>
+      </div>
+  
+      <div class="redirectToLogin">
+        <span>Already have an account? <span class="redirect" routerLink="/sign-in">Log In</span></span>
+      </div>
+    </div>
+  
+  </div> -->
+
+
+  
+<mat-grid-list cols="1" rowHeight="2:1">
+  
+  <mat-grid-tile >
+  <mat-card class="example-card">
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>Sign Up</mat-card-title>
+       
+      </mat-card-header>
+      
+      <mat-card-content>
+        <div class="formGroup">
+          <input type="email" class="formControl" placeholder="Email Address" #userEmail required>
+        </div>
+        <div class="formGroup">
+          <input type="password" class="formControl" placeholder="Password" #userPwd required>
+        </div>
+        <br>
+        <div class="formGroup">
+          <button mat-raised-button color="primary" value="Sign Up" (click)="authService.SignUp(userEmail.value, userPwd.value)">
+            <span class="material-icons">
+              keyboard_return
+              </span>
+            Registrarse
+          </button>
+        </div>
+        <div class="formGroup">
+          <span class="or"><span class="orInner">Or</span></span>
+        </div>
+        <div class="formGroup">
+          <button mat-raised-button color="warn" (click)="authService.GoogleAuth()">
+            <span class="material-icons">
+              fingerprint
+              </span>
+            Con Google
+          </button>
+        </div>
+        <div class="redirectToLogin">
+          <span>Already have an account? <span color="primary" class="redirect" routerLink="/sign-in">Log In</span></span>
+        </div>
+        
+        
+      </mat-card-content>
+      
+    </mat-card>
+  </mat-grid-tile>
+
+    
+</mat-grid-list>

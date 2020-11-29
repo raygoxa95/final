@@ -1,0 +1,71 @@
+<!-- <div class="displayTable">
+  <div class="displayTableCell">
+    
+
+  </div>
+</div> -->
+
+
+
+
+
+<br>
+  <mat-grid-list cols="1" rowHeight="1:1" class="example-card">
+    <!-- <mat-grid-tile> -->
+    <mat-card >
+      <div class="example-card">
+        <mat-card-header >
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>Sign In</mat-card-title>
+         
+        </mat-card-header>
+        
+        <mat-card-content >
+          <div class="authBlock">
+      
+            <div class="formGroup">
+              <input matInput  type="text" class="formControl" placeholder="pat@example.com" #userName required>
+            </div>
+            <br>
+      
+            <div class="formGroup">
+              <input type="password" class="formControl" placeholder="Password" #userPassword required>
+            </div>
+            <br>
+            <!-- Calling SignIn Api from AuthService -->
+            <div class="formGroup">              
+              <button mat-raised-button color="primary" value="Log in" (click)="authService.SignIn(userName.value, userPassword.value)">
+                <span class="material-icons">
+                  keyboard_return
+                  </span>
+                Ingresar
+              </button>
+            </div>
+      
+            <div class="formGroup">
+              <span class="or"><span class="orInner">Or</span></span>
+            </div>
+      
+            <!-- Calling GoogleAuth Api from AuthService -->
+            <div class="formGroup">
+              <button mat-raised-button color="warn" (click)="authService.GoogleAuth()">
+                <span class="material-icons">
+                  fingerprint
+                  </span>
+                Con Google
+              </button>
+            </div>
+      
+            
+          </div>
+      
+          <div class="redirectToLogin">
+            <span >Don't have an account?<span class="redirect"   routerLink="/Registro"> Sign Up</span></span>
+          </div>
+        </mat-card-content>
+      </div>
+      </mat-card>
+    <!-- </mat-grid-tile> -->
+
+      
+  </mat-grid-list>

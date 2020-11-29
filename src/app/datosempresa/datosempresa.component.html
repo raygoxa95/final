@@ -1,0 +1,54 @@
+
+<div  class="center">
+    <h1>Inf. empresa</h1>
+</div>
+
+<div class="center">
+    <h3>
+        Nombre empresa: {{datoEmpres['name_empresa']}}
+        <!-- Nombre empresa -- {{index}} -->
+    </h3>
+</div>
+
+<div class="center" >
+    <h3>      
+        telefono: {{datoEmpres['phone']}} <br>
+        direccion: {{datoEmpres['address']}} <br>
+        Email: {{datoEmpres['email']}} <br>
+        Descripcion: {{datoEmpres['descripLarge']}} <br>        
+        lat: {{datoEmpres['lat']}}<br> 
+        lng: {{datoEmpres['lng']}}<br> 
+
+    </h3>
+</div>
+<!-- <div class="center">
+    <button mat-button color='primary' routerLink='/donaeth' >Dona Ethereum</button>
+</div> -->
+<!-- 
+<div class="center">
+    <h3>
+        breve descripcion 
+    </h3>
+</div> -->
+
+
+
+
+
+<!-- <div class="center">
+    <h3>
+        hola mundo
+    </h3>
+</div> -->
+
+
+<google-map width='100%' height='450px' [center]='pos' [zoom]='zoom'>
+    <map-marker [position]="pos" [label]="label">
+        <map-info-window>
+            <!-- <h3>
+                hola mundo
+            </h3> -->
+            
+        </map-info-window>
+    </map-marker>
+</google-map>

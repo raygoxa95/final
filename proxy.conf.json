@@ -1,0 +1,20 @@
+{
+    "/datoUsuarioEmpresa/*": {
+        "target": "http://localhost:5000/",
+        "secure": "false",
+        "logLevel": "debug",
+        "changeOrigin": true
+    },
+    "/usuarioTransaccion/*": {
+        "target": "http://localhost:5000/",
+        "secure": "false",
+        "logLevel": "debug",
+        "changeOrigin": true
+    },
+    "/pruebaTransaccion/*": {
+        "target": "http://localhost:5000/",
+        "secure": "false",
+        "logLevel": "debug",
+        "changeOrigin": true
+    }
+}
