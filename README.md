@@ -23,5 +23,5 @@ coordenadas de latitud y longitud con el objetivo de mostrar la ubicación exact
 empresa en un mapa.
 
 
-# Descripcion tecnico:
-el software esta construido en django como backend para hacer una comuniacion via api Rest con  angular como frontend en donde se esta utilizando una arquitectura Modelo, vista, controlador 
+# Descripcion tecnico y arquitectonico:
+El software esta construido en django como backend para hacer una comuniacion via api Rest con  angular como frontend en donde se esta utilizando una arquitectura Modelo, vista, controlador 
